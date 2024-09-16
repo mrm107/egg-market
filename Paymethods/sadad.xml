@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="2.5"  client="site" >
+	<name>پرداخت سداد</name>
+	<version>3.0.1</version>
+	<creationDate>شهریور 1392</creationDate>
+	<author>علیرضا بلوردی</author>
+	<authorEmail>a.balvardi@gmail.com</authorEmail>
+	<authorUrl>www.alirezabalvardi.ir</authorUrl>
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>دروازه پرداخت پرداخت سداد</description>
+	<image>images/sadad.png</image>
+	<files>
+		<filename>sadad.php</filename>
+		<folder>nusoap</folder>
+		<folder>image</folder>
+	</files>
+	<fields>
+		<field name="MerchantId" type="text" lable="شماره پذيرنده" />
+		<field name="TerminalId" type="text" lable="شماره ترمينال" />
+		<field name="MerchantKey" type="text" lable="کلید ترمينال" />
+	</fields>
+</metafile>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="1.5"  client="site" >
+	<name>تست</name>
+	<version>1.5.15</version>
+	<creationDate>1391/05/28</creationDate>
+	<author>علیرضا بلوردی</author>
+	<authorEmail>a.balvardi@gmail.com</authorEmail>
+	<authorUrl>www.alirezabalvardi.ir</authorUrl>
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>دروازه پرداخت تست</description>
+	<image>images/test.png</image>
+	<files>
+		<filename>test.php</filename>
+		<filename>image/test.png</filename>
+	</files>
+	<fields>
+		<field name="MerchantUN" type="hidden" autocomplete="off" default="abcd" lable="کد دسترسی" />
+		<field name="merchaurlsend" type="text" lable="آدرس ارسال" default="https://balvard.com/ShaparakTest/" />
+	</fields>
+</metafile>

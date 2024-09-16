@@ -1,0 +1,89 @@
+/* basic scrollbar styling */
+/* vertical scrollbar */
+.mCSB_container {
+    margin-left: 30px;
+    overflow: hidden;
+    width: auto;
+}
+
+.mCSB_container.mCS_no_scrollbar {
+    margin-right: 0;
+}
+
+.mCS_disabled > .mCustomScrollBox > .mCSB_container.mCS_no_scrollbar,
+.mCS_destroyed > .mCustomScrollBox > .mCSB_container.mCS_no_scrollbar {
+    margin-right: 30px;
+}
+
+.mCustomScrollBox > .mCSB_scrollTools {
+    background-color: #F8F3F0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 30px;
+}
+
+.mCSB_scrollTools .mCSB_draggerContainer {
+    bottom: 0;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.mCSB_scrollTools a + .mCSB_draggerContainer {
+    margin: 0px;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    height: 100%;
+    margin: 0 auto;
+    width: 30px;
+}
+
+.mCSB_scrollTools .mCSB_dragger {
+    background-color: transparent;
+    cursor: pointer;
+    height: 30px;
+    width: 100%;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 30px;
+}
+
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown {
+    cursor: pointer;
+    display: block;
+    height: 0px !important;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 0px !important;
+}
+
+.mCSB_scrollTools .mCSB_buttonDown {
+    height: 0px !important;
+    margin-top: -40px;
+    top: 100%;
+}
+
+.mCustomScrollBox {
+    -ms-touch-action: none; /*MSPointer events - direct all pointer events to js*/
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    background: #F8F3F0;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #C9B391;
+}

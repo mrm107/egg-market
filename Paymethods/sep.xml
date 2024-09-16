@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="2.5"  client="site" >
+	<name>سامان کیش</name>
+	<version>3.0.1</version>
+	<creationDate>تیرماه 1403</creationDate>
+	<author>علیرضا بلوردی</author>
+	<authorEmail>a.balvardi@gmail.com</authorEmail>
+	<authorUrl>www.alirezabalvardi.ir</authorUrl>
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>دروازه پرداخت سامان کیش</description>
+	<image>images/sep.png</image>
+	<files>
+		<filename>sep.php</filename>
+		<folder>image</folder>
+	</files>
+	<fields>
+		<field name="merchantID" type="text" lable="شماره ترمینال(MID)" />
+		<field name="merchantpass" type="text" lable="رمز ترمینال" />
+		<field name="merchantaccount" type="text" lable="شماره حساب" />
+	</fields>
+</metafile>

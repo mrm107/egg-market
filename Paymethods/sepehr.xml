@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="2.5"  client="site" >
+	<name>سپهر صادرات</name>
+	<version>3.0.1</version>
+	<creationDate>شهریور 1392</creationDate>
+	<author>علیرضا بلوردی</author>
+	<authorEmail>a.balvardi@gmail.com</authorEmail>
+	<authorUrl>www.alirezabalvardi.ir</authorUrl>
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>دروازه پرداخت سپهر صادرات</description>
+	<image>images/sepehr.png</image>
+	<files>
+		<filename>sepehr.php</filename>
+		<folder>nusoap</folder>
+		<folder>image</folder>
+	</files>
+	<fields>
+		<field name="merchantpass" type="text" lable="کد ترمینال" />
+	</fields>
+</metafile>

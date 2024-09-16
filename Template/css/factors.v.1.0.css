@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* Achar CSS Document */
+/* Hassan Zanjani - +98919 151 5145 - hassanzanjani1374@gmail.com */
+
+@page {
+    margin: 0;
+}
+
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    font-family: IRANSans !important;
+    background-color: white;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.loads {
+    width: 100%;
+    float: right;
+}
+
+.loads .load-item {
+    width: 100%;
+    float: right;
+    margin-top: 0;
+}
+
+.loads .load-item .load-table {
+    width: 100%;
+    float: right;
+    text-align: center;
+    direction: rtl;
+    border: 1px solid black;
+}
+
+
+.loads .load-item .load-table table {
+    width: 100%;
+    float: right;
+    border: 0;
+}
+
+.loads .load-item .load-table td {
+    vertical-align: middle;
+    border-bottom: 1px solid black;
+}
+
+.loads .load-item .load-table .origin_destination {
+    width: 60%;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+    line-height: 22px;
+}
+
+.loads .load-item .load-table .origin_destination > table td {
+    border: 0px;
+    padding: 5px;
+}
+
+.loads .load-item .load-table .origin_destination .area {
+    font-weight: bold;
+}
+
+.loads .load-item .load-table .origin_destination .province {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.loads .load-item .load-table .loader {
+
+}
+
+.loads .load-item .load-table .title {
+    width: 80%;
+    text-align: right;
+    border-left: 1px solid;
+    border-bottom: 0;
+    padding: 5px;
+}
+
+.loads .load-item .load-table .code {
+    padding: 5px;
+    border-bottom: 0;
+}
+
+.loads .load-item .load-table .contact {
+
+}
+
+.loads .load-item .load-table .contact td {
+    border: 0;
+}
+
+.loads .load-item .load-table .contact .name {
+    border-left: 1px solid black;
+    padding: 5px;
+}
+
+.loads .load-item .load-table .contact .name div {
+    line-height: 25px;
+}
+
+.loads .load-item .load-table .contact .phones {
+    width: 40%;
+}
+
+.loads .load-item .load-table .contact .phones div {
+    padding: 8px;
+}
+
+.loads .load-item .load-table .contact .phones div + div {
+    border-top: 1px solid black;
+}
+
+.loads .load-item .load-table .footer {
+    background-color: black;
+    color: white;
+}
+
+.loads .load-item .load-table .footer td {
+    padding: 5px;
+    direction: ltr;
+}
+
+.loads .load-item .load-table .footer td + td {
+    border-right: 1px solid white;
+}
+
+.loads .more-loads {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    direction: rtl;
+}
+
+.loads .more-loads div {
+    line-height: 23px;
+    margin-top: 5px;
+}
+
+.loads .more-loads div span {
+    background-color: white;
+    color: black;
+    padding: 0 3px;
+}
+
+.loads .more-loads div.share {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    padding: 6px;
+}
+
+@media print {
+
+}
